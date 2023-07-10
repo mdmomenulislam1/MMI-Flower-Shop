@@ -45,7 +45,7 @@ header {
 }
 
 .header-text {
-    padding: 20px;
+    padding: 20px 30px 40px 20px;
 }
 
 .header-title {
@@ -78,11 +78,14 @@ header {
     margin: 10px;
 }
 
-.header-btn {}
+.header-btn {
+
+}
 
 .header-img {
     width: 400px;
-    height: 500px;
+    height: 640px;
+    padding-bottom: 0;
 }
 
 /* This is feature section  */
@@ -92,9 +95,13 @@ header {
     text-align: center;
 }
 
-.feature-title {}
+.feature-title {
 
-.feature-description {}
+}
+
+.feature-description {
+
+}
 
 .feature-icon-container {
     display: flex;
@@ -159,7 +166,9 @@ header {
     padding: 50px;
 }
 
-.ads-icon {}
+.ads-icon {
+
+}
 
 .ads-title {
     color: rgba(39, 39, 39, 0.80);
@@ -208,9 +217,13 @@ header {
     margin-bottom: 25px;
 }
 
-.btn-deal {}
+.btn-deal {
 
-.deal-img {}
+}
+
+.deal-img {
+    
+}
 
 /* This is instagram section  */
 .instagram-container {
@@ -246,6 +259,7 @@ header {
     margin-left: 110px;
     margin-right: 110px;
     background-blend-mode: overlay;
+    margin-bottom: 150px;
 }
 
 .promotion-title {
@@ -276,6 +290,7 @@ header {
     font-size: 20px;
     font-weight: 700;
     margin: 10px;
+    box-shadow: 0px 0px 5px gray;
     
 
 }
@@ -288,6 +303,52 @@ header {
     font-weight: 800;
 
 }
+
+/* This is type section  */
+
+.type-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    padding-right: 150px;
+    margin-right: 200px;
+    text-align: center;
+    
+    
+}
+
+.type-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding: 50px 20px;
+    
+}
+
+
+.type-item{
+    border: 0;
+    box-shadow: 0px 0px 15px gray;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.type-icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.type-name{
+    margin: 10px;
+}
+
+.type-description{
+
+}
+
 
 /* This is footer section  */
 
