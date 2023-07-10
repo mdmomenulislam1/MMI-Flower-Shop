@@ -5,6 +5,31 @@
 }
 
 
+/* This common style  */
+
+.section-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+
+
+
 /* This is header section */
 header {
     padding: 100px 100px 0 100px;
@@ -41,9 +66,7 @@ header {
 }
 
 .btn-primary {
-    display: inline-flex;
     padding: 20px 43px;
-    align-items: flex-start;
     gap: 10px;
     border-radius: 8px;
     background: #E55473;
@@ -52,6 +75,7 @@ header {
     font-family: Lato;
     font-size: 20px;
     font-weight: 700;
+    margin: 10px;
 }
 
 .header-btn {}
@@ -68,21 +92,9 @@ header {
     text-align: center;
 }
 
-.feature-title {
-    color: #272727;
-    font-family: Lato;
-    font-size: 40px;
-    font-weight: 800;
-}
+.feature-title {}
 
-.feature-description {
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-family: Lato;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-}
+.feature-description {}
 
 .feature-icon-container {
     display: flex;
@@ -114,4 +126,165 @@ header {
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
+    margin-bottom: 150px;
+}
+
+/* This is ads section  */
+.ads-container {
+    margin: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 18px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 80%;
+    margin: auto;
+}
+
+.ads-item {
+    text-align: center;
+    padding: 50px;
+}
+
+.ads-icon {}
+
+.ads-title {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+
+/* This is deal section  */
+.deal-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 80px 100px;
+}
+
+.deal-text {
+    text-align: center;
+}
+
+.deal-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.text-primary {
+    color: red;
+}
+
+.deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.btn-deal {}
+
+.deal-img {}
+
+/* This is instagram section  */
+.instagram-container {
+    margin: 100px;
+    padding: 30px;
+}
+
+.instagram-img-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.instagram-img {}
+
+/* This is promotion container */
+.promotion-container {
+    text-align: center;
+    background-image: url('Flower Asset/Rectangle\ 9.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.promotion-container input {
+    padding: 20px 40px;
+    gap: 10px;
+    border-radius: 8px;
+    border: 2px solid black;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+
+}
+
+.promotion-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+/* This is footer section  */
+
+footer {
+    background-color: #111010;
+    text-align: center;
+    padding: 100px 0 200px 0;
+    margin: 100px 0 0 0;
+}
+
+.footer-title {
+    color: white;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
